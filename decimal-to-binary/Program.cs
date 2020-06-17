@@ -13,7 +13,7 @@ namespace decimal_to_binary
             
          // decimal number =33m;
           int intNumber = Convert.ToInt32(number);
-          Console.WriteLine("intNumber: "+intNumber);
+         
           int dividen=intNumber/2,remainder = intNumber%2;
         string firstRemainder = Convert.ToString(remainder),
                 firstDividen = Convert.ToString(dividen),
@@ -48,4 +48,5 @@ namespace decimal_to_binary
            Console.WriteLine("Binary number : "+ stringBinaryNumber);
  }
     }
+
 }
