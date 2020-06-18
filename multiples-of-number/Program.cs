@@ -11,8 +11,16 @@ namespace multiples_of_number
            */
            Console.WriteLine("Enter number: ");
            int number =  Convert.ToInt32(Console.ReadLine());
-           int result = multiples_of_number(number);
-           Console.WriteLine($"Result: {result}");
+         
+           if(number>50 || number<=0){
+               Console.WriteLine("Enter number between 1 to 50");
+           }else{
+               
+            int result = multiples_of_number(number);
+            Console.WriteLine($"Result: {result}");
+           }
+           
+            
         }
         static int multiples_of_number(int n){
             int sum=0;
@@ -23,7 +31,7 @@ namespace multiples_of_number
                 if(mul<=50){
                      
                     sum+=mul;
-                   //  Console.WriteLine($"Result: {mul} ");
+                    Console.WriteLine($"Result: {mul} ");
                 }
             }
             return sum;
