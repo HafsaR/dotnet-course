@@ -14,13 +14,19 @@ namespace challenge11
         string inputString = Console.ReadLine();
         Console.WriteLine("Enter number: ");
         int number = Convert.ToInt32(Console.ReadLine());
+        if(number<0){ 
+            Console.WriteLine("Number cannot be zero");
+            }else{
+                 getSubString(inputString,number);
+            }
        // Console.WriteLine($"Input string: {inputString}, number: {number}");
-        getSubString(inputString,number);
+       
         
         
         }
         static void getSubString(string str,int n){
-            string concatStr = str, result = "";
+            string concatStr 
+            = str, result = "";
             if(n>str.Length){
                 for(int i=str.Length+1; i<=n;i++){
                     concatStr += ".";
