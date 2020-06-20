@@ -58,3 +58,7 @@ Challenge#14:
     Rules: Cat must be one of the following
     - A male cat that is neutered, and either white or orange
     - A female cat that is neutered (spayed), any color but white
+
+challenge#10:
+ Write a function that takes in a temperature (Celsius) and a string listing one of 5 substances: Water, Helium, Mercury, Ethanol, and Carbon Dioxide. Return the "state" of the given substance at that temperature ("Solid", "Liquid", "Gas")
+    Example: Input is 250 and "Water" -> Output is "Gas"
