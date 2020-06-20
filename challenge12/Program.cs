@@ -16,6 +16,10 @@ namespace challenge12
             string type1 = Console.ReadLine();
             Console.WriteLine("Enter second type: ");
             string type2 = Console.ReadLine();
+            double value = 1.234567890;
+          
+            
+
 
             
 
