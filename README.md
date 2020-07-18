@@ -1,4 +1,4 @@
-# dotnet-course
+# C# exercises
 
 Challenge#1:
 Design a ticket-selling algorithm
